@@ -13,4 +13,3 @@ if st.button("Analyze"):
         sentiment = results[0]['label']
         score = results[0]['score']
         st.write(f"Sentiment: {sentiment}")
-        st.write(f"Confidence Score: {score:.2f}")
